@@ -38,7 +38,7 @@ const questions = [
     message: 'What are the test instructions?'
   },
   {
-    type: 'input',
+    type: 'list',
     name: 'license',
     message: 'What license did you use?',
     choices: ['MIT', 'Apache 2.0', 'Perl']
@@ -57,13 +57,13 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-fs.writeFile(fileName, data, (err) => {  
+fs.writeFile(fileName, data,() =>{  
     console.log('Files are written')
-}};
+})};
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => { 
-        writeToFile('ReadMe.md', answers)
+        writeToFile('ReadMe.md', generateMarkdown(answers))
     })
 }
 // Function call to initialize app

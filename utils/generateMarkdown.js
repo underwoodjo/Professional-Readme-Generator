@@ -4,13 +4,13 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case 'MIT':
-      console.log(MIT);
+      console.log('MIT');
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
     case 'Apache 2.0':
-      console.log(Apache);
+      console.log('Apache');
       return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
     case 'Perl':
-      console.log(Perl);
+      console.log('Perl');
       return '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)';
 }}
 
@@ -19,13 +19,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
-      console.log(MIT);
+      console.log('MIT');
       return '(https://opensource.org/licenses/MIT)';
     case 'Apache 2.0':
-        console.log(Apache);
+        console.log('Apache');
         return '(https://opensource.org/licenses/Apache-2.0)';
     case 'Perl':
-        console.log(Perl);
+        console.log('Perl');
         return '(https://opensource.org/licenses/Artistic-2.0)';
     }
 }
