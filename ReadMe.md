@@ -1,8 +1,8 @@
-# ugg
+# Professional Readme
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 - 
-hh
+Answer the questions that are promted in the terminal to create a professional readme
 ## Table of Contents
 - Description
 - Installation 
@@ -14,20 +14,20 @@ hh
 - Questions
 
 ## Installation
-ihih
+inquirer
 
 ## Usage
-hhi
+Answer the questions that are prompted in the terminal
 
 ## Credits
-hihi
+Me
 
 ## Tests
-ih
+Answer the questions when prompted to create a professional readme file
 
 ## Licensing
 MIT
 
 ## Questions
-You can find my Github info at ih or for any further questions you can reach me at my email undefined
+You can find my Github info at underwoodjo or for any further questions you can reach me at my email undefined
 
